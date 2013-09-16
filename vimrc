@@ -40,6 +40,7 @@ colorscheme slate
 set number
 set tw=80
 set nowrap
+set list
 
 " Tab Settings
 set noexpandtab
