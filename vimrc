@@ -21,6 +21,7 @@ Bundle 'tpope/vim-rails.git'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sensible'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required!
 "
@@ -37,6 +38,8 @@ filetype plugin indent on     " required!
 syntax on
 colorscheme slate
 set number
+set tw=80
+set nowrap
 
 " Tab Settings
 set noexpandtab
