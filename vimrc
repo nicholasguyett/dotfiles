@@ -33,11 +33,12 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
 
+" General Settings
 syntax on
 colorscheme slate
-
 set number
 
+" Tab Settings
 set noexpandtab
 set shiftwidth=2
 set ts=2
@@ -45,6 +46,7 @@ set tabstop=2
 set smartindent
 set autoindent
 
+" Mappings
 imap <Nul> _
 imap <C-,> (
 imap <C-.> )
