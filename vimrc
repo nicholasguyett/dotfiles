@@ -18,7 +18,7 @@ Bundle 'gmarik/vundle'
 " " git repos on your local machine (ie. when working on your own plugin)
 " Bundle 'file:///Users/gmarik/path/to/plugin'
 Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sensible'
 
