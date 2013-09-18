@@ -19,6 +19,7 @@ Bundle 'gmarik/vundle'
 " Bundle 'file:///Users/gmarik/path/to/plugin'
 Bundle 'tpope/vim-rails.git'
 Bundle 'airblade/vim-gitgutter'
+let g:gitgutter_realtime = 0 " disable realtime git updating
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sensible'
 Bundle 'scrooloose/syntastic'
