@@ -55,3 +55,7 @@ set autoindent
 imap <Nul> _
 imap <C-,> (
 imap <C-.> )
+
+" Meta Settings
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
