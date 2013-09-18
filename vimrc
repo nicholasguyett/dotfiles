@@ -45,6 +45,9 @@ set list
 " Layout settings
 set tw=80
 
+" Mouse Settings
+set mouse=a
+
 " Tab Settings
 set noexpandtab
 set shiftwidth=2
