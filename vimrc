@@ -35,13 +35,15 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
 
-" General Settings
+" Display Settings
 syntax on
 colorscheme slate
 set number
-set tw=80
 set nowrap
 set list
+
+" Layout settings
+set tw=80
 
 " Tab Settings
 set noexpandtab
