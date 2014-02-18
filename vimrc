@@ -48,6 +48,8 @@ set list
 
 " Layout settings
 set tw=80
+autocmd Filetype html setlocal tw=0
+autocmd Filetype php setlocal tw=0
 
 " Mouse Settings
 set mouse=a
