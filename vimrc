@@ -55,7 +55,7 @@ autocmd Filetype php setlocal tw=0
 set mouse=a
 
 " Tab Settings
-set expandtab
+set noexpandtab
 set shiftwidth=2
 set ts=2
 set tabstop=2
