@@ -23,9 +23,6 @@ let g:gitgutter_realtime = 0 " disable realtime git updating
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sensible'
 Bundle 'scrooloose/syntastic'
-Bundle 'Valloric/YouCompleteMe'
-let g:ycm_seed_identifiers_with_syntax = 1
-let g:ycm_filepath_completion_use_working_dir = 1
 Bundle 'kchmck/vim-coffee-script'
 
 filetype plugin indent on     " required!
