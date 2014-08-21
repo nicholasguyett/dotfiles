@@ -23,6 +23,8 @@ let g:gitgutter_realtime = 0 " disable realtime git updating
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sensible'
 Bundle 'scrooloose/syntastic'
+Bundle 'dsawardekar/ember.vim'
+Bundle 'mustache/vim-mustache-handlebars'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -wall'
 Bundle 'kchmck/vim-coffee-script'
