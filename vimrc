@@ -1,46 +1,46 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 "" original repos on github
-" Bundle 'tpope/vim-fugitive'
-" Bundle 'Lokaltog/vim-easymotion'
-" Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Bundle 'tpope/vim-rails.git'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Plugin 'tpope/vim-rails.git'
 " " vim-scripts repos
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
+" Plugin 'L9'
+" Plugin 'FuzzyFinder'
 " " non github repos
-" " Bundle 'git://git.wincent.com/command-t.git'
+" " Plugin 'git://git.wincent.com/command-t.git'
 " " git repos on your local machine (ie. when working on your own plugin)
-" Bundle 'file:///Users/gmarik/path/to/plugin'
-Bundle 'tpope/vim-rails.git'
-Bundle 'airblade/vim-gitgutter'
+" Plugin 'file:///Users/gmarik/path/to/plugin'
+Plugin 'tpope/vim-rails.git'
+Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0 " disable realtime git updating
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-sensible'
-Bundle 'scrooloose/syntastic'
-Bundle 'dsawardekar/ember.vim'
-Bundle 'mustache/vim-mustache-handlebars'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-sensible'
+Plugin 'scrooloose/syntastic'
+Plugin 'dsawardekar/ember.vim'
+Plugin 'mustache/vim-mustache-handlebars'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -wall'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'editorconfig/editorconfig-vim'
-Bundle 'wting/rust.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'wting/rust.vim'
 
 filetype plugin indent on     " required!
 "
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" NOTE: comments after Plugin command are not allowed..
 
 " Search settings
 set ignorecase
