@@ -31,6 +31,10 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'wting/rust.vim'
 
+" Typescript
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/tsuquyomi'
+
 filetype plugin indent on     " required!
 "
 " Brief help
