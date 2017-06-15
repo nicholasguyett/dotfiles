@@ -17,17 +17,13 @@ Plugin 'VundleVim/Vundle.vim'
 " " Plugin 'git://git.wincent.com/command-t.git'
 " " git repos on your local machine (ie. when working on your own plugin)
 " Plugin 'file:///Users/gmarik/path/to/plugin'
-Plugin 'tpope/vim-rails.git'
 Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0 " disable realtime git updating
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-sensible'
 Plugin 'scrooloose/syntastic'
-Plugin 'dsawardekar/ember.vim'
-Plugin 'mustache/vim-mustache-handlebars'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -wall'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'wting/rust.vim'
 
