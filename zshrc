@@ -67,6 +67,9 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 export VISUAL='vim'
 
+# Add custom scripts to path
+export PATH="~/dotfiles/bin:$PATH"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -84,4 +87,3 @@ export VISUAL='vim'
 alias pandoc='pandoc +RTS -V0 -RTS'
 alias v="vim"
 alias vi="vim"
-alias upgrade="sudo apt-get update -y && sudo apt-get upgrade -y && npm update -g vim +PluginUpdate +qall"
