@@ -68,7 +68,7 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 # Add custom scripts to path
-export PATH="~/dotfiles/bin:$PATH"
+export PATH="${HOME}/dotfiles/bin:$PATH"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
