@@ -90,3 +90,6 @@ alias vi="vim"
 
 # Auto complete configuration
 . <(ng completion --zsh)
+
+# Welcome Message
+fortune | cowsay
