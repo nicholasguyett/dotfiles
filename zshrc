@@ -87,9 +87,10 @@ export PATH="${HOME}/dotfiles/bin:$PATH"
 alias pandoc='pandoc +RTS -V0 -RTS'
 alias v="vim"
 alias vi="vim"
+alias cowwisdom="fortune | cowsay"
 
 # Auto complete configuration
 . <(ng completion --zsh)
 
 # Welcome Message
-fortune | cowsay
+cowwisdom
