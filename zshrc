@@ -70,6 +70,9 @@ export VISUAL='vim'
 # Add custom scripts to path
 export PATH="${HOME}/dotfiles/bin:$PATH"
 
+# Render GUI programmers to the GUI server
+export DISPLAY=:0
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
