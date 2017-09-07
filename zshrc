@@ -92,6 +92,11 @@ alias v="vim"
 alias vi="vim"
 alias cowwisdom="fortune | cowsay"
 
+# Additional functions
+function pause(){
+  read -p "$*"
+}
+
 # Auto complete configuration
 . <(ng completion --zsh)
 

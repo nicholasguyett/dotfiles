@@ -12,4 +12,5 @@ yarn global upgrade
 echo "Updating vim"
 vim +PluginUpdate +qall
 
-echo "Complete!"
+pause "All upgrades have finished"
+clear && cowwisdom
