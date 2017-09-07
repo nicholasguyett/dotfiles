@@ -6,6 +6,9 @@ sudo apt-get upgrade -y
 echo "Updating npm"
 npm update -g
 
+echo "Updating yarn"
+yarn global upgrade
+
 echo "Updating vim"
 vim +PluginUpdate +qall
 
