@@ -12,5 +12,5 @@ yarn global upgrade
 echo "Updating vim"
 vim +PluginUpdate +qall
 
-read -p "All upgrades have finished"
+read -p $'All upgrades have finished\n[Press any key to continue]' _
 clear && fortune | cowsay
