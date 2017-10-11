@@ -3,9 +3,6 @@ echo "Updating System"
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-echo "Updating npm"
-npm update -g
-
 echo "Updating yarn"
 yarn global upgrade
 
