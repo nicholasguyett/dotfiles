@@ -87,13 +87,14 @@ export DISPLAY=:0
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pandoc='pandoc +RTS -V0 -RTS'
 alias v="vim"
 alias vi="vim"
 alias cowwisdom="fortune | cowsay"
 
-# Auto complete configuration
-. <(ng completion --zsh)
+# Environment-Specific Configuration
+if [ -f "${HOME}/env/zshrc" ]; then
+  source "${HOME}/env/zshrc"
+fi
 
 # Welcome Message
 cowwisdom
