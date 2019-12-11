@@ -77,6 +77,9 @@ set autoindent
 imap <Nul> _
 imap <C-,> (
 imap <C-.> )
+noremap <silent> <C-s> :update<cr>
+cmap W w
+cmap X x
 
 " Meta Settings
 set backupdir=~/.vim/backup//
