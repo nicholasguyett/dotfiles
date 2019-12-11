@@ -90,6 +90,8 @@ export DISPLAY=:0
 alias v="vim"
 alias vi="vim"
 alias cowwisdom="fortune | cowsay"
+alias dotnet="dotnet.exe"
+alias "dn"="dotnet"
 
 # Environment-Specific Configuration
 if [ -f "${HOME}/env/zshrc" ]; then
