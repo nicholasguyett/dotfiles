@@ -69,6 +69,7 @@ export VISUAL='vim'
 
 # Add custom scripts to path
 export PATH="${HOME}/dotfiles/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
 
 # Render GUI programmers to the GUI server
 export DISPLAY=:0
