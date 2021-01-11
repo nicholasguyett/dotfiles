@@ -5,7 +5,7 @@ readonly VUNDLE_REPO="$SCRIPT_DIR/bundle/Vundle.vim"
 
 # symlink this folder to .vim
 if [ ! -d $HOME/.vim ]; then
-  ln -s -b -f $SCRIPT_DIR $HOME/.vim
+  ln -s -f $SCRIPT_DIR $HOME/.vim
 fi
 
 # Bootstrap vundle install
