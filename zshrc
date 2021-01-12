@@ -3,6 +3,8 @@
 export NPM_PACKAGES="${HOME}/.npm-global"
 export PATH="${NPM_PACKAGES}/bin:$PATH"
 
+export PATH="${HOME}/.local/bin:$PATH"
+
 # Path to your oh-my-zsh installation.
   export ZSH=/home/nicholas/.oh-my-zsh
 
@@ -93,6 +95,9 @@ alias vi="vim"
 alias cowwisdom="fortune | cowsay"
 alias dotnet="dotnet.exe"
 alias "dn"="dotnet"
+
+alias python="python3"
+alias pip="pip3"
 
 # Environment-Specific Configuration
 if [ -f "${HOME}/env/zshrc" ]; then
