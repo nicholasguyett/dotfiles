@@ -6,7 +6,7 @@ export PATH="${NPM_PACKAGES}/bin:$PATH"
 export PATH="${HOME}/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/nicholas/.oh-my-zsh
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -50,6 +50,8 @@ ZSH_THEME="blinks"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+
+ZSH_DISABLE_COMPFIX=true
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
