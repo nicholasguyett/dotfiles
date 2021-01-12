@@ -3,8 +3,11 @@ echo "Updating System"
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-echo "Updating yarn"
-yarn global upgrade
+if ! command -v yarn &> /dev/null
+then
+  echo "Updating yarn"
+  yarn global upgrade
+fi
 
 echo "Updating vim"
 vim +PluginUpdate +qall
