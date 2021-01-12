@@ -1,7 +1,13 @@
 #!/bin/bash
 echo "Updating System"
-sudo apt-get update -y
-sudo apt-get upgrade -y
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  # Assume debian, for now
+  sudo apt-get update -y
+  sudo apt-get upgrade -y
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  brew update
+  brew upgrade
+fi
 
 if ! command -v yarn &> /dev/null
 then
